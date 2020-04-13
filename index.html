@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="icon" href="./favicon.ico">
+    <meta charset="utf-8">
+    <title>Accueil | Oskar Drevet Nitschke</title>
+  </head>
+  <body>
+    <header>
+      <div class="inner-width">
+        <a href="" class="logo"><img src="./src/logo.png" alt=""></a>
+        <i class="menu-toggle-btn fas fa-bars"></i>
+        <nav class="navigation-menu">
+          <a href="/"><i class="fas fa-home home"></i> Accueil</a>
+          <a href=""><i class="fas fa-align-left about"></i> A propos</a>
+          <a href=""><i class="fab fa-buffer works"></i> Réalisations</a>
+          <a href="./projets.html"><i class="fas fa-users team"></i> Projets</a>
+          <a href="./contact.html"><i class="fas fa-headset contact"></i> Contact</a>
+      </div>
+    </header>
+
+    <br>
+    <center>
+    <center><img src="./src/profile.jpg" alt="" class="img-full-rounded img-border"></center>
+    <br>
+    <h2>Bienvenue à vous sur mon site</h2>
+    <br>
+    <h4>Je m'appelle Oskar DREVET NITSCHKE<br>et je suis un étudiant intéressé par le monde informatique et numérique</h4>
+    </center>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <br><br>
+          <hr class="hr-black">
+          <br><br>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="justify">Sur ce site vous pourrez retrouver toutes sortes d'infos intéressantes à propos de moi, mes réalisations ainsi que mes projets. Si vous avez d'autres questions sur moi n'hésitez pas à me contacter via la rubrique <a href="#">contact</a>.</p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(".menu-toggle-btn").click(function(){
+      $(this).toggleClass("fa-times");
+      $(".navigation-menu").toggleClass("active");
+    });
+  </script>
+</html>
